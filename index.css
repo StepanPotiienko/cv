@@ -240,3 +240,57 @@ h2 {
 .project-card a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 80%;
+    padding: 30px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .container {
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .social-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .skills ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+
+/* Modern fluid container */
+.container {
+  max-width: clamp(320px, 90%, 800px);
+}
