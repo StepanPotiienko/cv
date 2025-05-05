@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 50%;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+h1,
+h2 {
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.social-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.social-list li a.github {
+  background-color: #333;
+}
+.social-list li a.github:hover {
+  background-color: #24292e;
+}
+
+.social-list li a.instagram {
+  background: #d6249f;
+}
+
+.social-list li a.instagram:hover {
+  background: #fd5949;
+}
+
+.social-list li a.facebook {
+  background-color: #1877f2;
+}
+.social-list li a.facebook:hover {
+  background-color: #145dbf;
+}
+
+.social-list li a.telegram {
+  background-color: #0088cc;
+}
+.social-list li a.telegram:hover {
+  background-color: #007ab8;
+}
+
+.info,
+.section p {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+}
+
+.skills ul li {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 3%;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+}
+
+.python {
+  background-color: #3572a5;
+}
+
+.node {
+  background-color: #83cd29;
+}
+
+.html {
+  background-color: #e34f26;
+}
+
+.css {
+  background-color: #1572b6;
+}
+
+.javascript {
+  color: #000 !important;
+  background-color: #f7df1e;
+}
+
+.typescript {
+  background-color: #3178c6;
+}
+
+.git {
+  background-color: #f05032;
+}
+
+.go {
+  background-color: #00add8;
+}
+
+.java {
+  background-color: #007396;
+}
+
+.react {
+  background-color: #61dafb;
+  color: #000; /* black text on light blue */
+}
+
+#projects {
+  padding: 2rem;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.project-card {
+  width: 250px;
+  min-height: 180px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.project-card strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-card i {
+  display: block;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  color: #007acc;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
