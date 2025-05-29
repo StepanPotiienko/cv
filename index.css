@@ -207,6 +207,41 @@ h2 {
   color: #000;
 }
 
+.linux {
+  background-color: black;
+  color: white;
+}
+
+.gradle {
+  background-color: #209BC4;
+}
+
+.maven {
+  background-color: #EE3A43;
+}
+
+.android-studio {
+  background-color: #78C257;
+}
+
+.xcode {
+  background-color: #1999EA;
+}
+
+.swiftui {
+  background-color: #00C4FF;
+}
+
+.docker {
+  color: white;
+  background-color: #1D63ED;
+}
+
+.vscode {
+  background-color: #007ACC;
+}
+
+
 #projects {
   padding: 2rem;
 }
